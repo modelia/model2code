@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: model2tree
+Bundle-SymbolicName: org.modelia.modelmanagement
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.emf.ecore.xmi,
+ org.eclipse.gmt.modisco.java,
+ org.eclipse.uml2.uml;bundle-version="5.2.1",
+ org.eclipse.m2m.atl.common,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.common
+Bundle-ClassPath: model2tree.jar
+Export-Package: model2code
+Import-Package: org.eclipse.m2m.atl.core,
+ org.eclipse.m2m.atl.core.emf

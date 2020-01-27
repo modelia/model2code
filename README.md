@@ -9,18 +9,18 @@ Python version 2.7 or greater is required.
 ### Usage
 
 ```
-$ python translate.py [PARAMS]
+$ python codegenerator.py [PARAMS]
 ```
 
 ### Examples
 
 
 ```
-$ python translate.py --train_dir /home/lola/experiments/checkpoints --train_data /home/lola/experiments/models_train.json --val_data /home/lola/experiments/models_valid.json --test_data /home/lola/experiments/models_test.json
+$ python codegenerator.py --train_dir /home/lola/experiments/checkpoints --training_dataset /home/lola/experiments/models_train.json --validation_dataset /home/lola/experiments/models_valid.json --test_dataset /home/lola/experiments/models_test.json
 ```
 
 ```
-$ python translate.py --no_train --test_data /home/lola/experiments/models_test.json --load_model '/home/lola/experiments/neuralnetwork.pth'
+$ python codegenerator.py --no_train --test_dataset /home/lola/experiments/models_test.json --load_model '/home/lola/experiments/neuralnetwork.pth'
 ```    
 
 ## Authors
