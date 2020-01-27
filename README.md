@@ -16,7 +16,7 @@ $ python codegenerator.py [PARAMS]
 
 
 ```
-$ python codegenerator.py --train_dir /home/lola/experiments/checkpoints --training_dataset /home/lola/experiments/models_train.json --validation_dataset /home/lola/experiments/models_valid.json --test_dataset /home/lola/experiments/models_test.json
+$ python codegenerator.py --train_dir_checkpoints /home/lola/experiments/checkpoints --training_dataset /home/lola/experiments/models_train.json --validation_dataset /home/lola/experiments/models_valid.json --test_dataset /home/lola/experiments/models_test.json
 ```
 
 ```
